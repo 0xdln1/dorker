@@ -38,11 +38,10 @@ python3 dorker.py -d 'DORK FOR XSS PARAMS' | dalfox
 ## Command-line options
 
 ```
-  -h, --help                      show this help message and exit
+  -h, --help   show this help message and exit
   -f DORKFILE, --dorkfile DORKFILE
   -d DORK,     --dork     DORK
   -o OUTPUT,   --output   OUTPUT
-  -n NOBANNER, --nobanner NOBANNER
 ```
 
 ## Features
