@@ -11,6 +11,8 @@ python3 dorker.py -d 'WHATEVER-DORK' -o output.txt
 python3 dorker.py -f 'FILE-WITH-DORKS' -o output.txt
 ```
 
+> This script by default runs in headless mode
+
 > If you dont want banner every time just comment the Line 116
 
 ## Usage gif
@@ -32,7 +34,6 @@ sudo ./install.sh
 
 ```
 python3 dorker.py -d 'DORK FOR XSS PARAMS' | dalfox
-
 ```
 
 ## Command-line options
