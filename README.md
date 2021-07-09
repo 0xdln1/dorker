@@ -11,7 +11,11 @@ python3 dorker.py -d 'WHATEVER-DORK' -o output.txt
 python3 dorker.py -f 'FILE-WITH-DORKS' -o output.txt
 ```
 
-> This script by default runs in headless mode
+```text
+This script by default runs in headless mode but in the below gif 
+script is run in headless=False mode , if want to change that go Line 48 
+in the script
+```
 
 > If you dont want banner every time just comment the Line 116
 
