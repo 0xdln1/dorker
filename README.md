@@ -12,8 +12,8 @@ python3 dorker.py -f 'FILE-WITH-DORKS' -o output.txt
 ```
 
 ```text
-This script by default runs in headless mode but in the below gif script is run in headless=False mode,
-if want to change that go Line 48 in the script and change it
+This script by default runs in headless mode, but in the below gif script is run in headless=False mode,
+if want to change that go to Line 48 in the script and change it
 ```
 
 > If you dont want banner every time just comment the Line 116
