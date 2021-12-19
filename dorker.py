@@ -105,7 +105,7 @@ def exechaha(args,dorks):
 
     else:
         line = args.dork
-        driver = helium.start_firefox(headless=True)
+        driver = helium.start_firefox(headless=False)
         time.sleep(5)
         go_to('www.google.com')
         input_(line)
