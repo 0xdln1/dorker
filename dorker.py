@@ -17,7 +17,7 @@ def banner():
     | |/ /\ \_/ / |\ \| |\  \| |___| |\ \ 
     |___/  \___/\_| \_\_| \_/\____/\_| \_|             
 
-        Created by @0xdln and @0xrj_
+        Created by @0xdln and @0xrj
     """)
 
 def parser_error(self):
