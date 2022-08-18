@@ -119,7 +119,7 @@ def main():
     dorks = args.dorkfile
     exechaha(args,dorks)
     if(args.output):
-        file1 = open(args.output+'.txt', 'w')
+        file1 = open(args.output, 'w')
         for i in clean(final):
             file1.write(i.strip()+'\n')
         file1.close()
