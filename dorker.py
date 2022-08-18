@@ -45,7 +45,7 @@ def input_(dork):
 def re_enter():
     global prev_url
     global driver
-    driver = helium.start_firefox(headless=False)
+    driver = helium.start_firefox(headless=True)
     time.sleep(5)
     go_to(prev_url)
     flow()
@@ -97,7 +97,7 @@ def exechaha(args,dorks):
                 if not line:
                     break
                 else:
-                    driver = helium.start_firefox(headless=False)
+                    driver = helium.start_firefox(headless=True)
                     go_to('www.google.com')
                     input_(line)
                     time.sleep(5)
@@ -105,7 +105,7 @@ def exechaha(args,dorks):
 
     else:
         line = args.dork
-        driver = helium.start_firefox(headless=False)
+        driver = helium.start_firefox(headless=True)
         time.sleep(5)
         go_to('www.google.com')
         input_(line)
