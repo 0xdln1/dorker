@@ -1,9 +1,7 @@
-# Dorker
-
-## Better Google Dorking with Dorker :) 
+# Google-Dork better with Dorker :) 
 
 
-## Example usage
+### Example usage
 
 ```
 python3 dorker.py -d 'WHATEVER-DORK' -o output.txt
@@ -51,11 +49,9 @@ python3 dorker.py -d 'DORK FOR XSS PARAMS' | dalfox
 ## Features
 
 ```
-
 1) Custom Dork Support
 
 2) Maybe Slow because we tried to bypass Google Captcha therefore more accurate Results
-
 ```
 
 > Note: Google Might block You after dorking x amount of times using this tool. Use a vpn
